@@ -1,0 +1,178 @@
+/* General and Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Course Header Styling */
+.course-header {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('D:/ACADEMICS/webdev/srm-institute-website/client/public/images/bannerSRM.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.course-header .course-text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.course-header h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+/* Course Section */
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.course h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.course p {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.course .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.course-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.course-col h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.course-col p {
+    font-size: 14px;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Facilities Section */
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.facilities h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.facilities .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.facilities-col img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.facilities-col h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.facilities-col p {
+    font-size: 14px;
+}
+
+.facilities-col:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .icons .fa {
+    color: #f44336;
+    padding-right: 15px;
+}
+
+.footer .fa-heart {
+    color: #f44336;
+}
+
+@media (max-width: 700px) {
+    .course .row,
+    .facilities .row {
+        flex-direction: column;
+    }
+
+    .course-col,
+    .facilities-col {
+        flex-basis: 100%;
+    }
+
+    .course-header h1 {
+        font-size: 30px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+}

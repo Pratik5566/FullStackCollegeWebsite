@@ -1,0 +1,31 @@
+/* Footer Section */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer h4 {
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.icons .fa {
+    color: #f44336;
+    padding-right: 15px;
+}
+
+.fa-heart {
+    color: #f44336;
+}
+
+@media (max-width: 700px) {
+    .footer p {
+        font-size: 15px;
+        padding: 20px;
+    }
+}

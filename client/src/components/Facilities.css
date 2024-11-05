@@ -1,0 +1,37 @@
+/* Facilities Section */
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.facilities h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.facilities p {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.facilities .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.facilities-col img {
+    width: 100%;
+    border-radius: 10px;
+}

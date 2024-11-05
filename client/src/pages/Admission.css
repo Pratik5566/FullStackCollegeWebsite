@@ -1,0 +1,142 @@
+/* General and Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styling */
+.sub-header {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('D:/ACADEMICS/webdev/srm-institute-website/client/public/images/bannerSRM.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Admission Form Section */
+.admission-form {
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.admission-form h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #f44336;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+.hero-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    color: #fff;
+    background: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero-btn:hover {
+    background: #d32f2f;
+}
+
+/* Footer Styling */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .icons .fa {
+    color: #f44336;
+    padding-right: 15px;
+}
+
+.footer .fa-heart {
+    color: #f44336;
+}
+
+/* Responsive Styling */
+@media (max-width: 700px) {
+    .text-box h1 {
+        font-size: 24px;
+    }
+
+    .admission-form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+}

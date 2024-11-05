@@ -1,0 +1,164 @@
+/* General and Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styling */
+.contact-header {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('D:/ACADEMICS/webdev/srm-institute-website/client/public/images/bannerSRM2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header-text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Google Maps Location */
+.location iframe {
+    width: 100%;
+    border: 0;
+    margin-bottom: 40px;
+}
+
+/* Contact Section */
+.contact-us {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-us h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-col i {
+    font-size: 24px;
+    color: #f44336;
+    margin-right: 15px;
+}
+
+.contact-col h3 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.contact-col p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+/* Contact Form */
+.contact-box h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #fff;
+    background: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #d32f2f;
+}
+
+/* Footer Styling */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .icons .fa {
+    color: #f44336;
+    padding-right: 15px;
+}
+
+.footer .fa-heart {
+    color: #f44336;
+}
+
+/* Responsive Styles */
+@media (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .contact-col {
+        flex-basis: 100%;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+}

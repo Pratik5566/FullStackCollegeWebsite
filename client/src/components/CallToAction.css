@@ -1,0 +1,23 @@
+/* Call To Action Section */
+.cfa {
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('D:/ACADEMICS/webdev/srm-institute-website/client/public/images/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 5%;
+}
+
+.cfa h1 {
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+@media(max-width: 700px) {
+    .cfa h1 {
+        font-size: 20px;
+    }
+}
